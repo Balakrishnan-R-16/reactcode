@@ -1,0 +1,134 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: #333;
+  text-align: center;
+}
+
+/* Container for the booking form */
+.container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 40px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Dropdowns for district selection */
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+/* Bus option styles */
+.bus-option {
+  background-color: #e9ecef;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  border: 1px solid #ccc;
+}
+
+.bus-option:hover {
+  background-color: #d6d8db;
+  transform: scale(1.02);
+}
+
+/* Bus details */
+.bus-option h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #007bff;
+}
+
+.bus-option p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Passenger details section */
+.passenger-input {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+/* Success message */
+.success-message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #28a745;
+}
+
+/* Error message */
+.error-message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: #dc3545;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .container {
+      padding: 15px;
+  }
+
+  button {
+      font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  input[type="number"],
+  select {
+      font-size: 14px;
+  }
+}

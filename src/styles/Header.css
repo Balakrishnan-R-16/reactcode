@@ -1,0 +1,33 @@
+.header {
+  background-color: #c88bf400;
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: flex-start; /* Align items to the top */
+  padding: 10px 20px; /* Adjust padding to ensure proper spacing */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+   /* Vertically center items in this section */
+}
+
+.header-logo {
+  height: 40px; /* Adjust the height as needed */
+  margin-right: 10px; /* Space between the logo and the "Busify" text */
+}
+
+.header-right {
+  display: flex;
+  align-items: center; /* Vertically center items in this section */
+}
+
+.header-link {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px; /* Space between the links */
+}
+
+.header-link:hover {
+  text-decoration: underline;
+}

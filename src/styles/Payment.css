@@ -1,0 +1,137 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Payment container */
+  .payment-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Payment card */
+  .payment-card {
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 400px;
+    text-align: center;
+  }
+  
+  /* Titles and text */
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Payment methods section */
+  .payment-methods label {
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .payment-methods input[type='radio'] {
+    margin-right: 8px;
+  }
+  
+  /* Credit card input fields */
+  .credit-card-details input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .card-expiry-cvv {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card-expiry-cvv input {
+    width: 48%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Payment button */
+  .payment-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .payment-button.loading {
+    background-color: #5a9;
+    cursor: not-allowed;
+  }
+  
+  .payment-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Loading text */
+  .loading-text {
+    color: #333;
+    font-size: 14px;
+  }
+  
+  /* Success and error messages */
+  .success-text {
+    color: #28a745;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .error-text {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Transaction history */
+  .transaction-history {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .transaction-history h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .transaction-history ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .transaction-history li {
+    font-size: 14px;
+    color: #666;
+    border-bottom: 1px solid #ddd;
+    padding: 8px 0;
+  }
+  

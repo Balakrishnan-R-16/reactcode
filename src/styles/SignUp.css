@@ -1,0 +1,24 @@
+/* SignUp.css */
+body{
+  background-image: url('/Users/balakrishnan1608/Downloads/wallpaperflare.com_wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.signup-form{
+  width: 300px;
+}
+.signup-container {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 120px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;  
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  
+    
+  
+}
+#di{
+  height: 10px;
+}
